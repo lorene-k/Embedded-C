@@ -1,4 +1,4 @@
-# Embedded C – Piscine Embarquée (42 School)
+# Embedded C
 
 This repository contains the work I completed during the ***Piscine Embarquée** at [42 School](https://42.fr/), focused on embedded systems programming using the **ATmega328P** microcontroller.
 
