@@ -28,14 +28,14 @@ Each module below contains commented source files and related Makefiles.
 | [`08: SPI`](./module_08/)            | SPI master communication to interface with components like potentiometers, buttons, and LEDs.               |
 | [`09: 7 segments display`](./module_09/)  | Driving a 7-segment display using GPIOs and timers to show numerical values (e.g. counter or sensor data).  |
 
-> ✅ All modules are written in **pure C**, using direct register access (no Arduino libraries).
+> All modules are written in pure C, using direct register access (no Arduino libraries).
 
 
 ## 2. Hardware & Schematic
 
 You can find the development board schematic used during the piscine here:
 
-📁 [`devkit_schema.pdf`](./devkit_schema.pdf)
+→ [`devkit_schema.pdf`](./devkit_schema.pdf)
 
 
 ## 3. Tools Used
