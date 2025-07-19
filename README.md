@@ -10,14 +10,20 @@ We used:
 - UART communication
 - Basic circuit building and schematics
 
+## 1. Tools Used
 
-## 1. Modules Completed
+- **AVR-GCC** (`avr-gcc`, `avr-objcopy`)
+- **AVRDUDE** for flashing binaries
+- **screen** for serial monitoring
+- **LEDs, resistors, buttons, potentiometer**
+
+## 2. Modules Completed
 
 Each module below contains commented source files and related Makefiles.
 
 | Module | Description |
 |--------|-------------|
-| [`00: First Programs`](./module_00/) | Project setup with a custom Makefile. Writing your first programs to blink an LED and handle button inputs using GPIOs. |
+| [`00: First Programs`](./module_00/) | Project setup with a custom Makefile. Writing first programs to blink an LED and handle button inputs using GPIOs. |
 | [`01: Timers`](./module_01/)         | Introduction to hardware timers: configuring Timer0/1 for delays, counters, and generating periodic events. |
 | [`02: UART`](./module_02/)           | Serial communication using the UART protocol: configuring baud rate, sending/receiving data over USB.       |
 | [`03: RGB & advanced timers`](./module_03/) | Advanced timer usage with PWM to control RGB LED brightness and blending colors.                     |
@@ -31,19 +37,11 @@ Each module below contains commented source files and related Makefiles.
 > All modules are written in pure C, using direct register access (no Arduino libraries).
 
 
-## 2. Hardware & Schematic
+## 3. Hardware & Schematic
 
 You can find the development board schematic used during the piscine here:
 
 → [`devkit_schema.pdf`](./devkit_schema.pdf)
-
-
-## 3. Tools Used
-
-- **AVR-GCC** (`avr-gcc`, `avr-objcopy`)
-- **AVRDUDE** for flashing binaries
-- **screen** for serial monitoring
-- **LEDs, resistors, buttons, potentiometer**
 
 
 ## 4. How to Build and Flash
