@@ -34,7 +34,7 @@ You can find the development board schematic used during the piscine here:
 
 
 ## Build and Flash
-Each module contains a Makefile. Example :
+Each module contains a Makefile :
 
 ```bash
 cd module_00/ex00
