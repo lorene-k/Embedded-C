@@ -3,13 +3,13 @@ This repository contains the work I completed during the **Piscine Embarquée** 
 
 >*The Piscine Embarquée is a 2-week intensive program at 42 School that introduces low-level embedded C programming, electronics fundamentals, and direct interaction with microcontroller registers (without relying on high-level libraries).
 
-## 1. Tools Used
+## Tools Used
 - **AVR-GCC** (`avr-gcc`, `avr-objcopy`)
 - **AVRDUDE** for flashing binaries
 - **screen** for serial monitoring
 - **LEDs, resistors, buttons, potentiometer**
 
-## 2. Modules Completed
+## Modules Completed
 Each module below contains commented source files and related Makefiles.
 
 | Module | Description |
@@ -28,13 +28,12 @@ Each module below contains commented source files and related Makefiles.
 > All modules are written in pure C, using direct register access (no Arduino libraries).
 
 
-## 3. Hardware & Schematic
+## Hardware
 You can find the development board schematic used during the piscine here:
-
 → [`devkit_schema.pdf`](./devkit_schema.pdf)
 
 
-## 4. How to Build and Flash
+## Build and Flash
 Each module contains a Makefile. Example :
 
 ```bash
