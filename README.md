@@ -1,24 +1,15 @@
 # Embedded C
-
 This repository contains the work I completed during the **Piscine Embarquée** at 42, focused on embedded systems programming using the **ATmega328P** microcontroller.
 
 >*The Piscine Embarquée is a 2-week intensive program at 42 School that introduces low-level embedded C programming, electronics fundamentals, and direct interaction with microcontroller registers (without relying on high-level libraries).
 
-We used:
-- **ATmega328P** (used in Arduino Uno)
-- AVR-GCC toolchain
-- UART communication
-- Basic circuit building and schematics
-
 ## 1. Tools Used
-
 - **AVR-GCC** (`avr-gcc`, `avr-objcopy`)
 - **AVRDUDE** for flashing binaries
 - **screen** for serial monitoring
 - **LEDs, resistors, buttons, potentiometer**
 
 ## 2. Modules Completed
-
 Each module below contains commented source files and related Makefiles.
 
 | Module | Description |
@@ -38,14 +29,12 @@ Each module below contains commented source files and related Makefiles.
 
 
 ## 3. Hardware & Schematic
-
 You can find the development board schematic used during the piscine here:
 
 → [`devkit_schema.pdf`](./devkit_schema.pdf)
 
 
 ## 4. How to Build and Flash
-
 Each module contains a Makefile. Example :
 
 ```bash
