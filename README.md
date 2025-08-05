@@ -1,8 +1,8 @@
 # Embedded C
 
-This repository contains the work I completed during the ***Piscine Embarquée** at [42 School](https://42.fr/), focused on embedded systems programming using the **ATmega328P** microcontroller.
+This repository contains the work I completed during the **Piscine Embarquée** at 42, focused on embedded systems programming using the **ATmega328P** microcontroller.
 
->*The Piscine Embarquée is a 2-week intensive bootcamp at 42 School that introduces low-level embedded C programming, electronics fundamentals, and direct interaction with microcontroller registers (without relying on high-level libraries).
+>*The Piscine Embarquée is a 2-week intensive program at 42 School that introduces low-level embedded C programming, electronics fundamentals, and direct interaction with microcontroller registers (without relying on high-level libraries).
 
 We used:
 - **ATmega328P** (used in Arduino Uno)
